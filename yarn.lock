@@ -728,7 +728,7 @@ babel-plugin-transform-strict-mode@^6.18.0:
     babel-runtime "^6.0.0"
     babel-types "^6.18.0"
 
-babel-polyfill@^6.20.0:
+babel-polyfill@^6.20.0, babel-polyfill@^6.23.0:
   version "6.23.0"
   resolved "https://registry.yarnpkg.com/babel-polyfill/-/babel-polyfill-6.23.0.tgz#8364ca62df8eafb830499f699177466c3b03499d"
   dependencies:
@@ -808,14 +808,7 @@ babel-register@^6.18.0:
     mkdirp "^0.5.1"
     source-map-support "^0.4.2"
 
-babel-runtime@^6.0.0, babel-runtime@^6.11.6, babel-runtime@^6.20.0, babel-runtime@^6.9.0, babel-runtime@^6.9.1:
-  version "6.20.0"
-  resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.20.0.tgz#87300bdcf4cd770f09bf0048c64204e17806d16f"
-  dependencies:
-    core-js "^2.4.0"
-    regenerator-runtime "^0.10.0"
-
-babel-runtime@^6.18.0, babel-runtime@^6.22.0:
+babel-runtime@^6.0.0, babel-runtime@^6.11.6, babel-runtime@^6.18.0, babel-runtime@^6.20.0, babel-runtime@^6.22.0, babel-runtime@^6.9.0, babel-runtime@^6.9.1:
   version "6.23.0"
   resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.23.0.tgz#0a9489f144de70efb3ce4300accdb329e2fc543b"
   dependencies:
@@ -1647,6 +1640,14 @@ dottie@^1.0.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/dottie/-/dottie-1.1.1.tgz#45c2a3f48bd6528eeed267a69a848eaaca6faa6a"
 
+draft-js@^0.10.1:
+  version "0.10.1"
+  resolved "https://registry.yarnpkg.com/draft-js/-/draft-js-0.10.1.tgz#6f1219d8095729691429ca6fd7a58d2a8be5cb67"
+  dependencies:
+    fbjs "^0.8.7"
+    immutable "~3.7.4"
+    object-assign "^4.1.0"
+
 duplexer@~0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/duplexer/-/duplexer-0.1.1.tgz#ace6ff808c1ce66b57d1ebf97977acb02334cfc1"
@@ -2115,7 +2116,7 @@ faye-websocket@~0.10.0:
   dependencies:
     websocket-driver ">=0.5.1"
 
-fbjs@^0.8.1, fbjs@^0.8.4:
+fbjs@^0.8.1, fbjs@^0.8.4, fbjs@^0.8.7:
   version "0.8.8"
   resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.8.tgz#02f1b6e0ea0d46c24e0b51a2d24df069563a5ad6"
   dependencies:
@@ -2575,6 +2576,10 @@ ignore@^3.0.11, ignore@^3.2.0:
 immutable@^3.8.1:
   version "3.8.1"
   resolved "https://registry.yarnpkg.com/immutable/-/immutable-3.8.1.tgz#200807f11ab0f72710ea485542de088075f68cd2"
+
+immutable@~3.7.4:
+  version "3.7.6"
+  resolved "https://registry.yarnpkg.com/immutable/-/immutable-3.7.6.tgz#13b4d3cb12befa15482a26fe1b2ebae640071e4b"
 
 imurmurhash@^0.1.4:
   version "0.1.4"

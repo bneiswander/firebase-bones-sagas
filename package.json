@@ -1,5 +1,5 @@
 {
-  "name": "__BONES_NEEDS_A_NAME__",
+  "name": "firebase-bones-sagas",
   "version": "0.0.1",
   "description": "A happy little burning skeleton.",
   "main": "index.js",
@@ -40,6 +40,7 @@
   "homepage": "https://github.com/queerviolet/bones#readme",
   "dependencies": {
     "axios": "^0.15.2",
+    "babel-polyfill": "^6.23.0",
     "babel-preset-stage-2": "^6.18.0",
     "bcryptjs": "^2.4.0",
     "body-parser": "^1.15.2",
@@ -48,6 +49,7 @@
     "check-node-version": "^1.1.2",
     "concurrently": "^3.1.0",
     "cookie-session": "^2.0.0-alpha.1",
+    "draft-js": "^0.10.1",
     "enzyme": "^2.5.1",
     "express": "^4.14.0",
     "finalhandler": "^1.0.0",
